@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/images/bg-intro-desktop.png);
+    background-color: rgba(223, 60, 60, 0.692);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+
+.row {
+    float: none !important;
+}
+
+.kiri,
+.kanan {
+    height: 50vh;
+}
+
+/* kiri */
+.kiri {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    padding: 20em 2em 20em 9em;
+}
+
+.kiri h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 5em;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.kiri p {
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+span {
+    font-size: 1.3em;
+    font-weight: 900;
+    color: white;
+}
+
+/* kanan */
+.kanan {
+    margin: 18% 5%;
+}
+
+.top {
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    padding: 25px auto;
+    width: 90%;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+form {
+    background-color: white;
+    border-radius: 15px;
+    height: 550px;
+    width: 90%;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 5px #888888;
+    box-shadow: 0 6px 3px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+input {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202);
+    font-weight: bold;
+    color: rgba(71, 71, 71, 0.801);
+    font-size: 16px;
+    padding: 15px;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: rgb(46, 46, 46);
+    color: black;
+}
+
+
+.claim {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 60px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 5px 0px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.kanan p {
+    font-size: 0.6em;
+    color: rgb(218, 218, 218);
+    font-weight: bolder;
+}
+
+.terms {
+    color: rgb(214, 63, 63);
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:375px) {
+    .kiri {
+        padding: 4em 4em 4em 4em;
+        margin: auto;
+        height: auto;
+    }
+
+    .kiri h1 {
+        font-size: 1.8em;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+
+    .kiri p {
+        font-size: 0.83em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .kanan {
+        height: auto;
+        padding: auto;
+        float: none;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    .top {
+        padding-left: 80px;
+        padding-right: 80px;
+        width: 94%;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    form {
+        height: 550px;
+        width: 94%;
+        padding: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .kanan p {
+        font-size: 0.8em;
+    }
+
+    .terms {
+        font-size: 1em;
+        font-weight: 900;
+    }
+}
